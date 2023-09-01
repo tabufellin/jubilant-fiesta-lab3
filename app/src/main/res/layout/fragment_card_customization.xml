@@ -1,0 +1,38 @@
+<!-- Diseño del fragmento de personalización de tarjeta -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Campo de entrada para el nombre -->
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:inputType="textPersonName" />
+
+    <!-- Campo de entrada para el apellido -->
+    <EditText
+        android:id="@+id/editTextLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Apellido"
+        android:inputType="textPersonName" />
+
+    <!-- Campo de entrada para el mensaje -->
+    <EditText
+        android:id="@+id/editTextMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mensaje"
+        android:inputType="textMultiLine" />
+
+    <!-- Botón de finalización y creación de la tarjeta -->
+    <Button
+        android:id="@+id/buttonCreateCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crear Tarjeta" />
+
+</LinearLayout>
